@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 GET http://localhost:3000 HTTP/1.1
 
 ###
@@ -5,3 +6,13 @@ GET https://webservices-whmx.onrender.com HTTP/1.1
 
 ###
 GET http://localhost:3000/contacts 
+=======
+// Localhost get all:
+GET http://localhost:3000/contacts HTTP/1.1
+// Localhost by individual ID:
+GET http://localhost:3000/contacts/65c54b5766ac2b37402945ec HTTP/1.1
+GET http://localhost:3000/contacts/65c54b5766ac2b37402945ed HTTP/1.1
+GET http://localhost:3000/contacts/65c54b5766ac2b37402945eb HTTP/1.1
+
+// Render get all:
+>>>>>>> 2c0651396d39ff5a12ce317d631a468db8fd48ee
