@@ -1,5 +1,5 @@
 const testFunction = (req, res, next) => {
-    res.json("Sofia Galkina");
+    res.json('Sofia');
 };
 
 module.exports = {testFunction};

@@ -1,0 +1,23 @@
+[
+   {
+    "firstName": "Sofia",
+    "lastName": "Galkina",
+    "email": "gal18024@byui.edu",
+    "favoriteColor": "Pink",
+    "birthday": "01/01/2000"
+  },
+   {
+    "firstName": "Katia",
+    "lastName": "Sandler",
+    "email": "latia@katia.com",
+    "favoriteColor": "Blue",
+    "birthday": "08/08/2008"
+  },
+   {
+    "firstName": "Bob",
+    "lastName": "Bobov",
+    "email": "bob@bob.com",
+    "favoriteColor": "Green",
+    "birthday": "02/02/2002"
+  }
+]
