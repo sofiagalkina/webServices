@@ -3,14 +3,13 @@ var express = require('express');
 //create instances
 var app = express();
 const db = require('./db/connect');
+//middleware:
+app.use(express.json());
+
 
 app.use('/', require('./routes'));
 
-<<<<<<< HEAD
 db.initDb((error)=>{
-=======
-db.initDb((error) => {
->>>>>>> 2c0651396d39ff5a12ce317d631a468db8fd48ee
     if (error) {
         console.error(error);
         return;
@@ -21,7 +20,3 @@ db.initDb((error) => {
     });
 
 });
-<<<<<<< HEAD
-=======
-
->>>>>>> 2c0651396d39ff5a12ce317d631a468db8fd48ee
