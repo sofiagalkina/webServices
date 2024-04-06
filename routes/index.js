@@ -3,6 +3,18 @@ const routes = require('express').Router();
 const myController = require('../controllers')
 const nameController = require('../controllers/names');
 
+
+// creating instances of swagger (sofia)
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('../swagger-output.json');
+
+// Swagger route (sofia)
+routes.use('/api-docs', swaggerUi.serve);
+routes.get('/api-docs', swaggerUi.setup(swaggerDocument));
+
+
+
+
 // routes.get('/', myController.testFunction);
 routes.get('/contacts', nameController.getData);
 routes.get('/contacts/:id', nameController.getSingle);
